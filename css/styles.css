@@ -918,15 +918,22 @@ img.img-center {
 }
 
 .md-margin-bottom-40 {
-    position: relative;
-    text-align: center;
     vertical-align: middle;
+    text-align: center;
+    position: relative;
 }
 
 .img-responsive {
-    position: static;
-    position: relative;
     vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.img-responsive-indexP {
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
 }
 
 .navbar-default .navbar-toggle {
@@ -945,6 +952,10 @@ img.img-center {
 
 .navbar-collapse {
     /* background: #d92634 !important; */
+}
+
+.footer-txt {
+    text-align: left;
 }
 
 
@@ -1006,6 +1017,17 @@ img.img-center {
     }
     #contact {
         padding: 150px 0;
+    }
+    .footer-txt {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .product-content {
+        text-align: center;
+    }
+    .row-store {
+        text-align: center;
+        vertical-align: middle;
     }
 }
 
@@ -1651,6 +1673,10 @@ section.section-padding.gray-bg {
     font-size: 24px;
 }
 
+.row-store {
+    padding-left: 15px;
+}
+
 
 /* store btn */
 
@@ -1659,16 +1685,12 @@ section.section-padding.gray-bg {
     text-align: center;
 }
 
-.btn-feature-store {
-    text-align: center;
-}
-
 .btn-default-store {
     font-size: 14px;
-    margin: 30px 0 10px;
+    margin: 20px 0 10px;
     margin-right: 10px;
-    line-height: 20px;
-    padding: 15px 35px;
+    line-height: 10px;
+    padding: 15px 15px;
     height: 44px;
     border: 2px solid #84cd48;
     background: transparent;
