@@ -119,10 +119,11 @@ a:hover {
     /* margin-top: -1px; */
     border-top: 1px solid #fff;
     background-image: url(../img/indexbg.png);
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
     height: 630px;
     text-align: center;
-    width: 100%;
 }
 
 .intro {
@@ -974,8 +975,10 @@ img.img-center {
     #intro {
         padding: 70px 0 70px;
     }
+    #intro h2,
     #intro-co h2,
-    #features h2 {
+    #features h2,
+    #ideas h2 {
         font-weight: 150;
         text-align: center;
         color: #313131;
@@ -1124,6 +1127,7 @@ img.img-center {
     /* margin-top: -1px; */
     border-top: 1px solid #fff;
     background-image: url(../img/brands-banner.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 630px;
     text-align: center;
@@ -1138,7 +1142,7 @@ img.img-center {
 
 .feature-2-pic {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .skill-home {
@@ -1355,6 +1359,7 @@ img.img-center {
     /* margin-top: -1px; */
     border-top: 1px solid #fff;
     background-image: url(../img/idea-banner.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 630px;
     text-align: center;
@@ -1637,6 +1642,7 @@ img.img-center {
     /* margin-top: -1px; */
     border-top: 1px solid #fff;
     background-image: url(../img/store-banner.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 630px;
     text-align: center;
@@ -1721,6 +1727,7 @@ section.section-padding.gray-bg {
     /* margin-top: -1px; */
     border-top: 1px solid #fff;
     background-image: url(../img/team-banner.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 630px;
     text-align: center;
@@ -1737,10 +1744,27 @@ section.section-padding.gray-bg {
     margin: 0;
 }
 
+.container-comment {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text-uppercase {
+    font-size: 20px;
+    color: #313131;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.comment {
+    color: #313131;
+    padding-top: 40px;
+}
+
 .main_product .carousel-control {
-    border-radius: 50%;
     background-color: #fff;
-    border-color: #84cd48;
+    color: #333;
+    border-radius: 50%;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -1749,26 +1773,34 @@ section.section-padding.gray-bg {
     top: 30%;
 }
 
+.port_item {
+    vertical-align: middle;
+    text-align: center;
+}
+
 .main_product .carousel-control:hover {
-    color: #84cd48;
+    background-color: #00a885;
+    color: #fff;
 }
 
 .main_product .carousel-control.left {
     left: -1.4%;
+    opacity: 0;
 }
 
 .main_product .carousel-control.right {
     right: -1.4%;
+    box-shadow: 1px 0px 0px 0px;
+    opacity: 0;
 }
 
 .main_product .port_img {
-    vertical-align: middle;
-    text-align: center;
     position: relative;
     overflow: hidden;
 }
 
 .main_product .port_img img {
+    width: 100%;
     height: 152px;
     width: 152px;
 }
@@ -1776,6 +1808,7 @@ section.section-padding.gray-bg {
 .main_product .port_overlay {
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 168, 133, 0.60);
     position: absolute;
     left: 0;
     top: 0;
@@ -1784,23 +1817,26 @@ section.section-padding.gray-bg {
     transition: all 0.2s;
 }
 
+.main_product .port_overlay a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    bottom: -150px;
+    position: relative;
+}
+
+.main_product .port_img:hover .port_overlay a {
+    bottom: 0;
+}
+
 .main_product .port_img:hover .port_overlay {
-    opacity: 0;
-}
-
-.m-top-20 {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.text-uppercase {
-    font-size: 20px;
-    color: #313131;
-    padding-bottom: 50px;
-}
-
-.team-comment {
-    color: #666;
+    opacity: 1;
 }
 
 
@@ -1889,6 +1925,7 @@ section.section-padding.gray-bg {
 section#contact {
     background-image: url("../img/team-contact-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
 
@@ -1954,6 +1991,7 @@ section#contact .text-danger {
 
 .text-muted {
     color: #fff;
+    padding-top: 15px;
     padding-bottom: 50px;
 }
 
