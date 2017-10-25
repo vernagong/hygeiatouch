@@ -1779,7 +1779,6 @@ section.section-padding.gray-bg {
 }
 
 .main_product .carousel-control:hover {
-    background-color: #00a885;
     color: #fff;
 }
 
@@ -1808,7 +1807,6 @@ section.section-padding.gray-bg {
 .main_product .port_overlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 168, 133, 0.60);
     position: absolute;
     left: 0;
     top: 0;
