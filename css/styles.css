@@ -1581,7 +1581,7 @@ img.img-center {
 }
 
 .good {
-    background: transparent url(../img/idea-like.png) no-repeat;
+    background: transparent url(../img/idea-prize.png) no-repeat;
     vertical-align: middle;
     margin: 0 auto;
     width: 45px;
@@ -1598,8 +1598,8 @@ img.img-center {
     display: block;
 }
 
-.knot {
-    background: transparent url(../img/idea-knot.png) no-repeat;
+.doctor {
+    background: transparent url(../img/idea-doctor.png) no-repeat;
     vertical-align: middle;
     margin: 0 auto;
     width: 45px;
@@ -1961,13 +1961,20 @@ section#contact .text-danger {
     color: #313131;
 }
 
+.text-center-send,
+row-send {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
 .btn-default-contact {
     font-size: 14px;
     margin: 30px 0 10px;
     margin-right: 10px;
-    line-height: 20px;
+    text-align: center;
+    line-height: 22px;
     padding: 15px 35px;
-    height: 44px;
+    height: 53px;
     border: 2px solid #fff;
     background: transparent;
     transition: all 0.4s;
