@@ -1963,16 +1963,17 @@ section#contact .text-danger {
 
 .text-center-send,
 row-send {
-    margin: 0 auto;
+    margin: 0;
     vertical-align: middle;
+    text-align: center;
 }
 
 .btn-default-contact {
     font-size: 14px;
-    margin: 30px 0 10px;
-    margin-right: 10px;
+    margin: 30px 0;
+    vertical-align: middle;
     text-align: center;
-    line-height: 22px;
+    line-height: 20px;
     padding: 15px 35px;
     height: 53px;
     border: 2px solid #fff;
