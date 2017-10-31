@@ -127,6 +127,7 @@ a:hover {
 }
 
 .intro {
+    text-align: center;
     vertical-align: middle;
 }
 
@@ -1614,6 +1615,16 @@ img.img-center {
 
 
 /* idea 往商城或團隊 */
+
+.intro-box {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.banner-title {
+    vertical-align: middle;
+    text-align: center;
+}
 
 #content-link-idea {
     position: relative;
