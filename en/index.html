@@ -5,6 +5,8 @@
 
     <title>HygeiaTouch | 健康新體驗</title>
     <link rel="icon" href="../img/favicon-ht.ico">
+    <link rel="alternate" hreflang="zh" href="http://hygeiatouch.com/zh/" />
+    <link rel="alternate" hreflang="en" href="http://hygeiatouch.com/en/" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Hygeia Touch focus on innovative home-friendly self-administered products and aim to offer you an unique healthcare experience to guard your loved ones.">
     <meta name="keywords" content="HygeiaTouch, healthcare, Preliminary-test, biomarkers-testing, self-administered">
@@ -27,267 +29,291 @@
 
     <!-- Font Awesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- language -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.pack.js"></script>
+    <script type="text/javascript">
+        <!--
+        $(function() {
+            var lang = window.navigator.userLanguage || window.navigator.language;
+            var relang = lang.toLowerCase();
+            switch (relang) {
+                case "zh":
+                    $("#tbody").load("zh/index.html");
+                    break;
+
+                case "en":
+                    $("#tbody").load("en/index.html");
+                    break;
+
+                default:
+                    $("#tbody").load("zh/index.html");
+            }
+        });
+        //-->
+
+    </script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-scroll">
+    <div id="tbody">
+        <div id="top"></div>
 
-    <div id="top"></div>
-
-    <!-- NAVIGATION -->
-    <div id="menu">
-        <nav class="navbar-wrapper navbar-default" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-themers">
+        <!-- NAVIGATION -->
+        <div id="menu">
+            <nav class="navbar-wrapper navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-themers">
 				  <span class="sr-only">Toggle navigation</span>
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button>
-                    <a class="navbar-brand site-name" href="index.html"><img src="../img/logo-ht.png" alt="logo"></a>
-                </div>
-
-                <div id="navbar-scroll" class="collapse navbar-collapse navbar-themers navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="brands.html">Products</a></li>
-                        <li><a href="idea.html">Concepts</a></li>
-                        <li><a href="store.html">Shop</a></li>
-                        <li><a href="team.html">Our team</a></li>
-                        <li><a href="../zh/index.html">中文</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-
-    <div class="fullscreen landing parallax banner">
-        <div class="container">
-            <div class="row">
-                <div class="intro-box">
-                    <div class="intro">
-                        <h1 class="wow fadeInLeft">
-                            Through biomarkers testing, effectively safeguard the health of all your families!<br><br>
-                        </h1>
-                        <div class="head-btn wow fadeInLeft">
-
-                            <a href="#intro" class="btn-primary play-market">
-                                <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- 品牌理念 -->
-    <div id="intro">
-        <div class="container">
-            <div class="row">
-
-                <!-- feature image -->
-                <div class="col-md-6 feature-2-pic wow fadeInLeft">
-                    <img src="../img/index_godness.png" alt="image" class="img-responsive">
-                </div>
-
-                <!-- feature content -->
-                <div class="col-md-6 wow fadeInRight">
-                    <h2>Concepts</h2>
-                    <h5>Hygeia, the Greek Goddess of Good Health, care the Health of all Your Families!</h5>
-                    <p>We focus on innovative home-friendly self-administered products and aim to offer you an unique healthcare experience to guard your loved ones.
-                    </p>
-
-                    <div class="btn-section"><a href="idea.html" class="btn-default">More details</a></div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-    <!-- 顧問評論 -->
-    <div id="clients">
-        <div class="container">
-            <div class="text-center">
-
-            </div>
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div id="owl-clients" class="owl-carousel owl-theme wow fadeInUp">
-
-                        <!-- Clients 1 -->
-                        <div class="clients-item">
-                            <div class="client-pic text-center">
-
-                                <!-- client photo -->
-                                <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
-                            </div>
-                            <div class="box">
-
-                                <!-- Clients content -->
-                                <p class="message text-center">"Hygeia Touch is doing very exciting work which I hope will be helpful to many people."</p>
-                            </div>
-                            <div class="client-info text-center">
-
-                                <!-- client name -->
-                                <span class="company">Robert Langer, David H. Koch Institute Professor</span>
-                            </div>
-                        </div>
-
-                        <!-- Clients 2 -->
-                        <div class="clients-item">
-                            <div class="client-pic text-center">
-
-                                <!-- client photo -->
-                                <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
-                            </div>
-                            <div class="box">
-
-                                <!-- Clients content -->
-                                <p class="message text-center">"Technology wonders and new experience, my baby dog is happier ever！"</p>
-                            </div>
-                            <div class="client-info text-center">
-
-                                <!-- client name -->
-                                <span class="company">Wei-Yeh-Lung, Vice Chairman of Wistron ITS</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 經營團隊 -->
-    <section id="features">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 wow fadeInRight">
-                    <div>
-                        <h2><br><br>Our team</h2>
-                        <h5>Professional biomedical PhDs and experienced team of Experts</h5>
-                        <p>Founding team are from National Tsing Hua University and we have several senior medical doctors as our consultants to provide you professional home-friendly self-administered products.</p>
-                        <div class="btn-section"><a href="team.html" class="btn-default">More details</a></div>
-                    </div>
-                    <br/>
-                </div>
-                <div class="col-md-6 feature-2-pic wow fadeInLeft"><img src="../img/index_team-photo.png" class="img-center" alt="" /></div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- 產品品牌 -->
-    <div id="package">
-        <div class="container">
-
-            <div class="row package-option">
-
-                <div class="col-md-4 md-margin-bottom-40 wow fadeInLeft">
-                    <img class="img-responsive-indexP" src="../img/index_pet-icon.png" alt="沛吉兒">
-                    <h3>Petgeia</h3>
-                    <div class="title-line"></div>
-                    <p><br>Professional healthcare for your pets</p>
-                </div>
-                <div class="col-md-4 md-margin-bottom-40 wow fadeInLeft">
-                    <img class="img-responsive-indexP" src="../img/index_her-icon.png" alt="賀小姐">
-                    <h3>Hergeia</h3>
-                    <div class="title-line"></div>
-                    <p><br>Vaginal test product you can trust</p>
-                </div>
-                <div class="col-md-4 md-margin-bottom-40 wow fadeInRight">
-                    <img class="img-responsive-indexP" src="../img/index_men-icon.png" alt="賀先生">
-                    <h3>VirileGeia</h3>
-                    <div class="title-line"></div>
-                    <p><br>Fertility is also a man's job!</p>
-                </div>
-
-            </div>
-            <div class="btn-feature"><a href="brands.html" class="btn-default">More details</a></div>
-
-
-        </div>
-    </div>
-
-    <!-- footer -->
-    <footer class="site-footer">
-        <div class="bottom">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-6 col-xs-12 footer-txt text-lg-left text-center">
-
-                        <img class="footer-logo" src="../img/logo-white.png" alt="logo">
-
-
+                        <a class="navbar-brand site-name" href="index.html"><img src="../img/logo-ht.png" alt="logo"></a>
                     </div>
 
-                    <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a href="index.html">Home</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="brands.html">Products</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="idea.html">Concepts</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="store.html">Shop</a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a href="team.html">Our team</a>
-                            </li>
+                    <div id="navbar-scroll" class="collapse navbar-collapse navbar-themers navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="brands.html">Products</a></li>
+                            <li><a href="idea.html">Concepts</a></li>
+                            <li><a href="store.html">Shop</a></li>
+                            <li><a href="team.html">Our team</a></li>
+                            <li><a href="../zh/index.html">中文</a></li>
 
                         </ul>
                     </div>
+                </div>
+            </nav>
+        </div>
 
+        <div class="fullscreen landing parallax banner">
+            <div class="container">
+                <div class="row">
+                    <div class="intro-box">
+                        <div class="intro">
+                            <h1 class="wow fadeInLeft">
+                                Through biomarkers testing, effectively safeguard the health of all your families!<br><br>
+                            </h1>
+                            <div class="head-btn wow fadeInLeft">
+
+                                <a href="#intro" class="btn-primary play-market">
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 品牌理念 -->
+        <div id="intro">
+            <div class="container">
+                <div class="row">
+
+                    <!-- feature image -->
+                    <div class="col-md-6 feature-2-pic wow fadeInLeft">
+                        <img src="../img/index_godness.png" alt="image" class="img-responsive">
+                    </div>
+
+                    <!-- feature content -->
+                    <div class="col-md-6 wow fadeInRight">
+                        <h2>Concepts</h2>
+                        <h5>Hygeia, the Greek Goddess of Good Health, care the Health of all Your Families!</h5>
+                        <p>We focus on innovative home-friendly self-administered products and aim to offer you an unique healthcare experience to guard your loved ones.
+                        </p>
+
+                        <div class="btn-section"><a href="idea.html" class="btn-default">More details</a></div>
+
+                    </div>
 
                 </div>
 
-                <div class="credits">
-                    <!-- 
+            </div>
+        </div>
+        <!-- 顧問評論 -->
+        <div id="clients">
+            <div class="container">
+                <div class="text-center">
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div id="owl-clients" class="owl-carousel owl-theme wow fadeInUp">
+
+                            <!-- Clients 1 -->
+                            <div class="clients-item">
+                                <div class="client-pic text-center">
+
+                                    <!-- client photo -->
+                                    <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
+                                </div>
+                                <div class="box">
+
+                                    <!-- Clients content -->
+                                    <p class="message text-center">"Hygeia Touch is doing very exciting work which I hope will be helpful to many people."</p>
+                                </div>
+                                <div class="client-info text-center">
+
+                                    <!-- client name -->
+                                    <span class="company">Robert Langer, David H. Koch Institute Professor</span>
+                                </div>
+                            </div>
+
+                            <!-- Clients 2 -->
+                            <div class="clients-item">
+                                <div class="client-pic text-center">
+
+                                    <!-- client photo -->
+                                    <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
+                                </div>
+                                <div class="box">
+
+                                    <!-- Clients content -->
+                                    <p class="message text-center">"Technology wonders and new experience, my baby dog is happier ever！"</p>
+                                </div>
+                                <div class="client-info text-center">
+
+                                    <!-- client name -->
+                                    <span class="company">Wei-Yeh-Lung, Vice Chairman of Wistron ITS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 經營團隊 -->
+        <section id="features">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 wow fadeInRight">
+                        <div>
+                            <h2><br><br>Our team</h2>
+                            <h5>Professional biomedical PhDs and experienced team of Experts</h5>
+                            <p>Founding team are from National Tsing Hua University and we have several senior medical doctors as our consultants to provide you professional home-friendly self-administered products.</p>
+                            <div class="btn-section"><a href="team.html" class="btn-default">More details</a></div>
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="col-md-6 feature-2-pic wow fadeInLeft"><img src="../img/index_team-photo.png" class="img-center" alt="" /></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 產品品牌 -->
+        <div id="package">
+            <div class="container">
+
+                <div class="row package-option">
+
+                    <div class="col-md-4 md-margin-bottom-40 wow fadeInLeft">
+                        <img class="img-responsive-indexP" src="../img/index_pet-icon.png" alt="沛吉兒">
+                        <h3>Petgeia</h3>
+                        <div class="title-line"></div>
+                        <p><br>Professional healthcare for your pets</p>
+                    </div>
+                    <div class="col-md-4 md-margin-bottom-40 wow fadeInLeft">
+                        <img class="img-responsive-indexP" src="../img/index_her-icon.png" alt="賀小姐">
+                        <h3>Hergeia</h3>
+                        <div class="title-line"></div>
+                        <p><br>Vaginal test product you can trust</p>
+                    </div>
+                    <div class="col-md-4 md-margin-bottom-40 wow fadeInRight">
+                        <img class="img-responsive-indexP" src="../img/index_men-icon.png" alt="賀先生">
+                        <h3>VirileGeia</h3>
+                        <div class="title-line"></div>
+                        <p><br>Fertility is also a man's job!</p>
+                    </div>
+
+                </div>
+                <div class="btn-feature"><a href="brands.html" class="btn-default">More details</a></div>
+
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="site-footer">
+            <div class="bottom">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-xs-12 footer-txt text-lg-left text-center">
+
+                            <img class="footer-logo" src="../img/logo-white.png" alt="logo">
+
+
+                        </div>
+
+                        <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="index.html">Home</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="brands.html">Products</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="idea.html">Concepts</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="store.html">Shop</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="team.html">Our team</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="credits">
+                        <!-- 
                   All the links in the footer should remain intact. 
                   You can delete the links only if you purchased the pro version.
                   Licensing information: https://bootstrapmade.com/license/
                   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
                 -->
-                    © 2017 Powered by<a href="index.html"> Hygeia Touch </a>Inc. Copyright.
+                        © 2017 Powered by<a href="index.html"> Hygeia Touch </a>Inc. Copyright.
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- javascript files -->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/custom.js"></script>
-    <script src="../js/jquery.sticky.js"></script>
-    <script src="../js/wow.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
-    <script src="../js/ekko-lightbox-min.js"></script>
-    <script type="text/javascript">
-        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
+        <!-- javascript files -->
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/custom.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/ekko-lightbox-min.js"></script>
+        <script type="text/javascript">
+            $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
 
-    </script>
-    <script>
-        new WOW().init();
+        </script>
+        <script>
+            new WOW().init();
 
-    </script>
+        </script>
+    </div>
 </body>
 
 </html>
