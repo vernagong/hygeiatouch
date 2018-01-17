@@ -32,13 +32,12 @@
     <!-- language -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.pack.js"></script>
     <script type="text/javascript">
-        <!--
         $(function() {
             var lang = window.navigator.userLanguage || window.navigator.language;
             var relang = lang.toLowerCase();
             switch (relang) {
                 case "zh":
-                    $("#tbody").load("zh/index.html");
+                    $("#tbody").load("../zh/index.html");
                     break;
 
                 case "en":
@@ -46,11 +45,10 @@
                     break;
 
                 default:
-                    $("#tbody").load("zh/index.html");
+                    $("#tbody").load("../zh/index.html");
             }
         });
         //-->
-
     </script>
 </head>
 
@@ -93,7 +91,7 @@
                     <div class="intro-box">
                         <div class="intro">
                             <h1 class="wow fadeInLeft">
-                                Through biomarkers testing, effectively safeguard the health of all your families!<br><br>
+                                Through biomarker testing, effectively protects the health of all your family members<br><br>
                             </h1>
                             <div class="head-btn wow fadeInLeft">
 
@@ -121,7 +119,7 @@
                     <!-- feature content -->
                     <div class="col-md-6 wow fadeInRight">
                         <h2>Concepts</h2>
-                        <h5>Hygeia, the Greek Goddess of Good Health, care the Health of all Your Families!</h5>
+                        <h5>Like the Greek goddness of health, Hygeia safeguards the health of the family members！</h5>
                         <p>We focus on innovative home-friendly self-administered products and aim to offer you an unique healthcare experience to guard your loved ones.
                         </p>
 
@@ -223,7 +221,7 @@
                         <img class="img-responsive-indexP" src="../img/index_her-icon.png" alt="賀小姐">
                         <h3>Hergeia</h3>
                         <div class="title-line"></div>
-                        <p><br>Vaginal test product you can trust</p>
+                        <p><br>The most secure and comforting self-examining product for ladies</p>
                     </div>
                     <div class="col-md-4 md-margin-bottom-40 wow fadeInRight">
                         <img class="img-responsive-indexP" src="../img/index_men-icon.png" alt="賀先生">
@@ -307,11 +305,9 @@
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
-
         </script>
         <script>
             new WOW().init();
-
         </script>
     </div>
 </body>
