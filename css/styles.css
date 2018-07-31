@@ -155,19 +155,19 @@ a:hover {
     padding: 7px;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #66a038;
     font-weight: 500;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
     color: #313131;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
     background: transparent;
     color: #66a038;
 }
@@ -190,7 +190,7 @@ a:hover {
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
-.open>.dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
     border: 2px solid #84cd48;
     background: #84cd48;
     color: white;
@@ -214,7 +214,7 @@ a:hover {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
     border: 2px solid #fff;
     background: transparent;
     color: #fff;
@@ -237,7 +237,7 @@ a:hover {
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active,
-.open>.dropdown-toggle.btn-secondary {
+.open > .dropdown-toggle.btn-secondary {
     background: #1f96e0;
     color: white
 }
@@ -979,8 +979,8 @@ img.img-center {
     #intro h2,
     #intro-co h2,
     #features h2,
-    #ideas h2 {
-        font-weight: 150;
+    #ideas h2,
+    #package h2 {
         text-align: center;
         color: #313131;
     }
@@ -990,12 +990,6 @@ img.img-center {
     }
     #intro-co {
         padding: 70px 0 70px;
-    }
-    #intro-co h2,
-    #features h2 {
-        font-weight: 150;
-        text-align: center;
-        color: #313131;
     }
     #intro-co p,
     #features p {
@@ -1265,7 +1259,7 @@ img.img-center {
 .btn-default-her:focus,
 .btn-default-her:active,
 .btn-default-her.active,
-.open>.dropdown-toggle.btn-default-her {
+.open > .dropdown-toggle.btn-default-her {
     border: 2px solid #e83076;
     background: #e83076;
     color: white;
@@ -1379,11 +1373,12 @@ img.img-center {
 }
 
 
-/* idea's CSS */
+/* idea's CSS
+----------------------------------*/
 
 #ideas {
     background-color: #fff;
-    padding: 0;
+    padding: 40px 0px;
     margin: 0;
 }
 
@@ -1467,6 +1462,13 @@ img.img-center {
     color: #201b06;
 }
 
+/* idea 使命 2018/07新增 */
+
+#ideas2 {
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+    margin: 0;
+}
 
 /* idea 提供服務 */
 
@@ -1732,7 +1734,7 @@ section.section-padding.gray-bg {
 .btn-default-store:focus,
 .btn-default-store:active,
 .btn-default-store.active,
-.open>.dropdown-toggle.btn-default-store {
+.open > .dropdown-toggle.btn-default-store {
     border: 2px solid #84cd48;
     background: #84cd48;
     color: white;
@@ -2152,7 +2154,7 @@ row-send {
 .btn-default-contact:focus,
 .btn-default-contact:active,
 .btn-default-contact.active,
-.open>.dropdown-toggle.btn-default-contact {
+.open > .dropdown-toggle.btn-default-contact {
     border: 2px solid #84cd48;
     background: #84cd48;
     color: #fff;
